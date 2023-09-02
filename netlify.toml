@@ -1,5 +1,5 @@
 [build]
-  base = "1-redirecionar"
+  base = ""
   publish = "public"
   command = "php -S 0.0.0.0:9000"
 
