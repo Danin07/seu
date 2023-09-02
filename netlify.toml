@@ -1,0 +1,12 @@
+[build]
+  base = "1-redirecionar"
+  publish = "public"
+  command = "php -S 0.0.0.0:9000"
+
+[dev]
+  command = "php -S 0.0.0.0:9000"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.php"
+  status = 200
