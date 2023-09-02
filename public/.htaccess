@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redireciona para a página index.php
+RewriteRule ^$ index.php [L]
